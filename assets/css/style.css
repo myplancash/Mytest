@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #f6b024;
+  background: #ffd700;
   color: #fff;
 }
 
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info i {
-  color: #f6b024;
+  color: #ffd700;
   padding-right: 4px;
 }
 
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #topbar .cta a {
   color: #fff;
-  background: #f6b024;
+  background: #ffd700;
   padding: 6px 24px 8px 24px;
   display: inline-block;
   transition: 0.3s;
@@ -192,9 +192,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 700;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #header .logo a {
@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #f6b024;
+  background-color: #ffd700;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #f6b024;
+  color: #ffd700;
   text-decoration: none;
 }
 
@@ -469,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/better-way-to-invest.png") top center;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 255, 0.9);
+  background: rgba(0, 0, 250, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -533,17 +533,17 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 0.3s;
   line-height: 1;
   margin: 10px;
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f6b024;
+  border: 2px solid #ffd700;
 }
 
 #hero .btn-get-started:hover {
-  background: #f6b024;
+  background: #ffd700;
   color: #fff;
   text-decoration: none;
 }
@@ -624,7 +624,7 @@ section {
 .icon-boxes .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #f6b024;
+  color: #ffd700;
 }
 
 .icon-boxes .title {
@@ -1001,7 +1001,7 @@ section {
 
 .services .icon-box i {
   float: left;
-  color: #f6b024;
+  color: #ffd700;
   font-size: 40px;
 }
 
@@ -1059,12 +1059,12 @@ section {
   transition: 0.5s;
   margin: 10px;
   border-radius: 50px;
-  border: 2px solid #f6b024;
+  border: 2px solid #ffd700;
   color: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #f6b024;
+  background: #ffd700;
 }
 
 @media (max-width: 1024px) {
@@ -1822,7 +1822,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #f6b024;
+  background: #ffd700;
   color: #fff;
   padding: 6px 20px 8px 20px;
   transition: 0.3s;
@@ -1902,7 +1902,7 @@ section {
 }
 
 .blog .entry .entry-footer a:hover {
-  color: #f6b024;
+  color: #ffd700;
 }
 
 .blog .entry .entry-footer .cats {
@@ -2012,7 +2012,7 @@ section {
 }
 
 .blog .blog-comments .comment h5 a:hover {
-  color: #f6b024;
+  color: #ffd700;
 }
 
 .blog .blog-comments .comment h5 .reply {
@@ -2085,7 +2085,7 @@ section {
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-  background-color: #f6b024;
+  background-color: #ffd700;
 }
 
 .blog .blog-pagination {
@@ -2202,7 +2202,7 @@ section {
 }
 
 .blog .sidebar .categories ul a:hover {
-  color: #f6b024;
+  color: #ffd700;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2232,7 +2232,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-  color: #f6b024;
+  color: #ffd700;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2269,8 +2269,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
   color: #fff;
-  border-color: #f6b024;
-  background: #f6b024;
+  border-color: #ffd700;
+  background: #ffd700;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2326,7 +2326,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #f6b024;
+  background: #ffd700;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -2377,7 +2377,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #f6b024;
+  background: #ffd700;
   color: #fff;
   text-decoration: none;
 }
@@ -2450,5 +2450,5 @@ section {
 }
 
 #footer .credits a {
-  color: #f6b024;
+  color: #ffd700;
 }
