@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   top: 0;
-  background: rgba(5, 87, 158, 0.9);
+  background: rgba(20, 0, 198, 0.9);
 }
 
 #header .logo {
@@ -477,7 +477,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(6, 101, 183, 0.9);
+  background: rgba(0, 0, 255, 0.9);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -510,6 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   animation-delay: 0.4s;
   margin: 0 auto 30px auto;
   color: #fff;
+  font-size: 1.25rem;
 }
 
 #hero .carousel-control-prev, #hero .carousel-control-next {
