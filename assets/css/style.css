@@ -163,16 +163,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .cta a {
-  color: #fff;
+  color: #1400c6cc;
   background: #ffd700;
   padding: 6px 24px 8px 24px;
   display: inline-block;
-  transition: 0.3s;
+  /* transition: 0.3s; */
+  /* border-radius: 50px; */
+
+  transition: 0.5s;
+  margin: 10px;
   border-radius: 50px;
+  border: 2px solid #ffd700;
+  /* color: #fff; */
+
+  font-size: .875rem;
+  /* background: 0 0; */
+  /* border: none; */
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  /* font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; */
+  font-weight: 600;
+  line-height: 1.28571429;
+  letter-spacing: .8px;
+  font-size: .875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  /* padding: 19px 40px 20px; */
+  /* display: block; */
+  /* width: 100%; */
+  /* transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1); */
 }
 
 #topbar .cta a:hover {
-  background: #f1a40a;
+  background: #ffd700;
+  color: #0000ff;
 }
 
 /*--------------------------------------------------------------
@@ -545,25 +570,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 14px;
-  letter-spacing: 1px;
+  letter-spacing: 1px; */
   display: inline-block;
-  padding: 12px 32px;
+  /* padding: 12px 32px;
   border-radius: 50px;
   transition: 0.3s;
-  line-height: 1;
+  line-height: 1; */
   margin: 10px;
-  color: #fff;
+  /* color: #fff; */
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
+  /* border: 2px solid #ffd700; */
+
+  font-family: "Raleway", sans-serif;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  /* font-size: 15px; */
+  /* letter-spacing: 0.5px; */
+  display: inline-block;
+  /* padding: 8px 26px; */
+  /* border-radius: 2px; */
+  transition: 0.5s;
+  margin: 10px;
+  border-radius: 50px;
   border: 2px solid #ffd700;
+  color: #fff;
+
+  font-size: .875rem;
+  background: 0 0;
+  /* border: none; */
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  /* font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; */
+  /* font-weight: 700; */
+  line-height: 1.28571429;
+  letter-spacing: .8px;
+  font-size: .875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 19px 40px 20px;
+  /* display: block; */
+  /* width: 100%; */
+  transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
 }
 
 #hero .btn-get-started:hover {
   background: #ffd700;
-  color: #fff;
+  color: #1400c6cc;
   text-decoration: none;
 }
 
@@ -1078,22 +1135,41 @@ section {
 
 .cta .cta-btn {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.5px;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  /* font-size: 15px; */
+  /* letter-spacing: 0.5px; */
   display: inline-block;
-  padding: 8px 26px;
-  border-radius: 2px;
+  /* padding: 8px 26px; */
+  /* border-radius: 2px; */
   transition: 0.5s;
   margin: 10px;
   border-radius: 50px;
   border: 2px solid #ffd700;
   color: #fff;
+
+  font-size: .875rem;
+  background: 0 0;
+  /* border: none; */
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  /* font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; */
+  /* font-weight: 700; */
+  line-height: 1.28571429;
+  letter-spacing: .8px;
+  font-size: .875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 19px 40px 20px;
+  /* display: block; */
+  width: 100%;
+  transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
 }
 
 .cta .cta-btn:hover {
   background: #ffd700;
+  color: #1400c6cc;
 }
 
 @media (max-width: 1024px) {
