@@ -225,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 22px;
   line-height: 1.158;
   letter-spacing: -.8px;
   margin: 0;
@@ -772,7 +772,7 @@ section {
   left: 0;
 }
 
-..icon-boxes .icon-box .icon svg path {
+.icon-boxes .icon-box .icon svg path {
   transition: 0.5s;
   fill: #f5f5f5;
 }
@@ -817,7 +817,7 @@ section {
 }
 
 .icon-boxes .iconbox-blue i {
-  color: #47aeff;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-blue:hover .icon i {
@@ -825,11 +825,11 @@ section {
 }
 
 .icon-boxes .iconbox-blue:hover .icon path {
-  fill: #47aeff;
+  fill: #4850ff;
 }
 
 .icon-boxes .iconbox-orange i {
-  color: #ffa76e;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-orange:hover .icon i {
@@ -837,11 +837,11 @@ section {
 }
 
 .icon-boxes .iconbox-orange:hover .icon path {
-  fill: #ffa76e;
+  fill: #4850ff;
 }
 
 .icon-boxes .iconbox-pink i {
-  color: #e80368;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-pink:hover .icon i {
@@ -849,11 +849,11 @@ section {
 }
 
 .icon-boxes .iconbox-pink:hover .icon path {
-  fill: #e80368;
+  fill: #4850ff;
 }
 
 .icon-boxes .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-yellow:hover .icon i {
@@ -861,11 +861,11 @@ section {
 }
 
 .icon-boxes .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #4850ff;
 }
 
 .icon-boxes .iconbox-red i {
-  color: #ff5828;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-red:hover .icon i {
@@ -873,11 +873,11 @@ section {
 }
 
 .icon-boxes .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #4850ff;
 }
 
 .icon-boxes .iconbox-teal i {
-  color: #11dbcf;
+  color: #4850ff;
 }
 
 .icon-boxes .iconbox-teal:hover .icon i {
@@ -885,7 +885,7 @@ section {
 }
 
 .icon-boxes .iconbox-teal:hover .icon path {
-  fill: #11dbcf;
+  fill: #4850ff;
 }
 
 /*--------------------------------------------------------------
