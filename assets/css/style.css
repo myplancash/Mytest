@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #232f3e;
 }
 
 .mobile-nav {
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #0665b7;
+  color: #4850ff;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -1514,7 +1514,7 @@ section {
   width: 32px;
   height: 32px;
   background: #ecf6fe;
-  color: #0665b7;
+  color: #4850ff;
 }
 
 .team .member .social a i {
@@ -2460,7 +2460,7 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #0665b7;
+  color: #4850ff;
   transition: 0.3s;
 }
 
