@@ -551,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/better-way-to-invest.png") top center;
+  background: url("../img/my-plan-cash-manage-my-money.jpg") top right;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -559,8 +559,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  /* background: rgba(229, 236, 238, 0.9); */
-  background: #f3f4f8;
+  background: rgba(243, 244, 248, 0.9);
+  /* background: #f3f4f8; */
   /* background: #e5ecee;  */
   position: absolute;
   bottom: 0;
@@ -1276,7 +1276,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(20, 0, 198, 0.8), rgba(20, 0, 198, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(35, 64, 153, 0.8), rgba(35, 64, 153, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
