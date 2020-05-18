@@ -396,6 +396,27 @@ h1, h2, h3, h4, h5, h6 {
   background: #0000b6;
 }
 
+#services h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  margin-top: 6px;
+  color: #1d1d1f;
+}
+
+#services h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+}
+
+#services p {
+  margin-top: 0.4em;
+  color: #86868b;
+}
+
 @media (max-width: 992px) {
   .service-btn {
     margin: 0 48px 0 0;
@@ -593,25 +614,46 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
+#services p {
+  margin-top: 0.4em;
+  color: #86868b;
+}
+
 #hero h2 {
-  color: #363f41;
+  /* color: #363f41; */
   margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  margin-top: 6px;
+  color: #1d1d1f;
+}
+
+#hero h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
 }
 
 .solution h2 {
   color: #858ea1;
   margin: 10px 0  30px 0;
-  font-size: 18px;
+  /* font-size: 18px; */
+
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 #hero p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #363f41;
+  margin: 0.4em auto 30px;
+  color: #86868b;
   font-size: 1.25rem;
   line-height: 33px;
 }
@@ -656,7 +698,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px;
   border-radius: 50px;
   /* border: 2px solid #0000ff; */
-  background: #0000ff;
+  background: #0071e3;
   color: #fff;
 
   font-size: .875rem;
@@ -678,10 +720,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #0000b6;
-  color: #fff;
+  background: #0077ED;
   text-decoration: none;
-  /* border: 2px solid #0000b6; */
 }
 
 @media (min-width: 1024px) {
@@ -712,7 +752,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f1f8ff;
+  background-color: #fafafa;
 }
 
 .section-title {
@@ -721,13 +761,18 @@ section {
 }
 
 .section-title h2 {
-  font-size: 34px;
-  font-weight: 600;
+  /* font-size: 34px;
+  font-weight: 600; */
   /* text-transform: uppercase; */
   margin-bottom: 20px;
   padding-bottom: 0;
   /* color: #054a85; */
   color: #234099;
+
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 .section-title p {
@@ -913,7 +958,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/about-bg.png") top center no-repeat;
+  background: url("../img/financial-habits-in-your-pocket.png") top center no-repeat;
   position: relative;
 }
 
@@ -931,9 +976,13 @@ section {
   position: relative;
 }
 
-.about .content h3 {
+.about .content h2 {
+  /* font-weight: 600;
+  font-size: 26px; */
+  font-size: 56px;
+  line-height: 1.07143;
   font-weight: 600;
-  font-size: 26px;
+  letter-spacing: -.005em;
 }
 
 .about .content ul {
@@ -1048,21 +1097,42 @@ section {
   padding: 60px 100px 0 100px;
 }
 
+.why-us .content h2 {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
+  margin-top: 6px;
+  color: #1d1d1f;
+}
+
 .why-us .content h3 {
+  font-size: 28px;
+  line-height: 1.10722;
+  font-weight: 400;
+  letter-spacing: .004em;
+}
+
+.why-us .content p {
+  margin-top: 0.4em;
+  color: #86868b;
+}
+
+/* .why-us .content h3 {
   font-weight: 400;
   font-size: 34px;
-}
+} */
 
 .why-us .content h4 {
   font-size: 20px;
   font-weight: 700;
   margin-top: 5px;
 }
-
+/* 
 .why-us .content p {
   font-size: 15px;
   color: #848484;
-}
+} */
 
 .why-us .video-box {
   background-size: cover;
@@ -1310,43 +1380,60 @@ section {
   color: #fff;
 }
 
+a:link, a:visited, .link:link, .link:visited {
+  text-decoration: none;
+}
+
 .cta .cta-btn {
-  font-family: "Open sans", sans-serif;
-  /* text-transform: uppercase; */
-  font-weight: 700;
-  /* font-size: 15px; */
-  /* letter-spacing: 0.5px; */
+  cursor: pointer;
   display: inline-block;
-  /* padding: 8px 26px; */
-  /* border-radius: 2px; */
+  text-align: center;
+  /* white-space: nowrap; */
+  font-size: 17px;
+  line-height: 1.17648;
+  font-weight: 400;
+  letter-spacing: -.022em;
+  /* font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
+  min-width: 28px;
+  padding: 19px 30px 20px;
+  background: #0071e3;
+  color: #fff;
+  border-radius: 4px;
+
+  /* font-family: "Open sans", sans-serif;
+  font-weight: 700;
+  display: inline-block;
   transition: 0.5s;
   margin: 10px;
   border-radius: 50px;
   border: 2px solid #ffd700;
   color: #fff;
-
   font-size: .875rem;
   background: 0 0;
-  /* border: none; */
   cursor: pointer;
   border-radius: 4px;
   text-align: center;
-  /* font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif; */
-  /* font-weight: 700; */
   line-height: 1.28571429;
   letter-spacing: .8px;
   font-size: .875rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 19px 30px 20px;
-  /* display: block; */
+  text-transform: uppercase; */
+  /* padding: 19px 30px 20px; */
+  font-weight: 700; 
+  font-size: .875rem; 
+  line-height: 1.28571429; 
+  letter-spacing: .8px; 
+  text-transform: uppercase; 
+  padding: 19px 40px 20px; 
+  border: 0px; 
+  -webkit-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;-moz-box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+  box-shadow: 0 -2px 0 rgba(0,0,0,0.15) inset;
+  border-radius: 4px; text-decoration: none; display: inline-block;
   width: 100%;
-  transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1),color 420ms cubic-bezier(.165,.84,.44,1),background 420ms cubic-bezier(.165,.84,.44,1);
 }
 
 .cta .cta-btn:hover {
-  background: # |67yhubg vbnm,-;
-  color: #1400c6cc;
+  background: #0077ED;
+  text-decoration: none;
 }
 
 @media (max-width: 1024px) {
@@ -1933,9 +2020,14 @@ section {
 }
 
 .breadcrumbs h2 {
-  font-size: 26px;
-  font-weight: 600;
+  /* font-size: 26px;
+  font-weight: 600; */
   color: #043c6d;
+
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 .breadcrumbs ol {
@@ -2026,9 +2118,14 @@ section {
 
 .portfolio-details .portfolio-description h2 {
   width: 50%;
-  font-size: 26px;
-  font-weight: 700;
+  /* font-size: 26px;
+  font-weight: 700; */
   margin-bottom: 20px;
+
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -.005em;
 }
 
 .portfolio-details .portfolio-description p {
