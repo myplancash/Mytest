@@ -800,7 +800,7 @@ section {
   /* font-weight: 600; */
   letter-spacing: -.005em;
   font-size: 3.125rem;
-  font-weight: 700;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -991,13 +991,13 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/financial-habits-in-your-pocket.jpg") top center no-repeat;
+  background: url("../img/financial-habits-in-your-pocket.png") top center no-repeat;
   position: relative;
 }
 
 .about:before {
   content: "";
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.15);
   position: absolute;
   bottom: 0;
   top: 0;
