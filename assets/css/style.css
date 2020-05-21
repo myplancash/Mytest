@@ -15,6 +15,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 a {
@@ -782,15 +790,18 @@ section {
   /* font-size: 34px;
   font-weight: 600; */
   /* text-transform: uppercase; */
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   padding-bottom: 0;
   /* color: #054a85; */
   color: #234099;
 
-  font-size: 56px;
+  /* font-size: 56px; */
   line-height: 1.07143;
-  font-weight: 600;
+  /* font-weight: 600; */
   letter-spacing: -.005em;
+  font-size: 3.125rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .section-title p {
@@ -800,10 +811,14 @@ section {
   letter-spacing: -.2px;
   font-size: 1.125rem; */
 
-  font-size: 18px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.333;
+  letter-spacing: -.2px;
+  margin-top: 0;
   line-height: 30px;
   margin-bottom: 50px;
-  color: #333;
+  color: #454545
   /* background-color: #fafafa; */
 }
 
@@ -976,7 +991,7 @@ section {
 --------------------------------------------------------------*/
 .about {
   padding: 140px 0;
-  background: url("../img/financial-habits-in-your-pocket.png") top center no-repeat;
+  background: url("../img/financial-habits-in-your-pocket.jpg") top center no-repeat;
   position: relative;
 }
 
@@ -1109,6 +1124,10 @@ section {
 .why-us {
   background: #fff;
   padding-bottom: 0 0 1.5rem 0;
+  border-bottom: none;
+  justify-content: center;
+  margin: auto;
+  position: relative;
 }
 
 .why-us .content {
@@ -1158,6 +1177,11 @@ section {
   background-position: center center;
   min-height: 400px;
   position: relative;
+
+  box-shadow: 0 0 1.5rem rgba(105,105,105,.5);
+  max-width: 870px;
+  width: 100%;
+  vertical-align: baseline;
 }
 
 .why-us .accordion-list {
