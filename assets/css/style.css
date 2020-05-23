@@ -385,9 +385,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 992px) {
   #header {
-    top: 0;
+    /* top: 0; */
     padding: 15px 0;
     background: transparent;
+
+    /* padding: 0; */
+    height: 70px;
+    background-color: #fff;
+    border-bottom: 1px solid #ebeaeb;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
   }
   #header .logo {
     font-size: 28px;
@@ -849,12 +857,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 768px) {
   #hero {
-    height: 100vh;
-    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
   }
   #hero h2 {
     font-size: 28px;
   }
+}
+@media screen and (max-width: 767px) and (min-width: 0) {
+
+}
+#hero {
+  padding: 0 4vw;
 }
 /*--------------------------------------------------------------
 # Sections General
