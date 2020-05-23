@@ -2781,9 +2781,13 @@ a:link, a:visited, .link:link, .link:visited {
 # Courses
 --------------------------------------------------------------*/
 .courses .course-item {
-  border-radius: 5px;
-  border: 1px solid #eef0ef;
+  border-radius: 4px;
   box-shadow: 0 0 1.5rem rgba(105,105,105,.5);
+  border: 1px solid #eef0ef;
+  /* position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out; */
+  cursor: pointer;
 }
 
 .courses .course-content {
