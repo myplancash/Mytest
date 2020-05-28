@@ -1661,7 +1661,27 @@ a:link, a:visited, .link:link, .link:visited {
   margin-bottom: 60px;
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  /* width: calc(((100%) / 3) - 30px); */
+  /* padding: 0 0 80px 0; */
+  /* margin: 15px; */
+  vertical-align: top;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  zoom: 1;
+  transition: ease .25s;
+  margin-right: auto;
 }
+.blog .entry:hover {
+  /* -webkit-box-shadow: 0 2px 50px 0 #E2E8EE; */
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  transform: scale(1.05);
+}
+
 .blog .entry .entry-img {
   max-height: 400px;
   margin: -20px -20px 20px -20px;
@@ -1709,6 +1729,16 @@ a:link, a:visited, .link:link, .link:visited {
   line-height: 24px;
   font-size: 15px;
 }
+.card-btn:after {
+    content: '';
+    width: 25px;
+    height: 14px;
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D%220%200%2025%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20stroke%3D%22%231264A3%22%20stroke-width%3D%222%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20stroke-linecap%3D%22round%22%3E%3Cpath%20d%3D%22M1.548%207h21.904%22%2F%3E%3Cpath%20stroke-linejoin%3D%22round%22%20d%3D%22M17%201l7%206-7%206%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E);
+}
+
 .blog .entry .entry-content .read-more {
   -moz-text-align-last: right;
   text-align-last: right;
@@ -1723,7 +1753,7 @@ a:link, a:visited, .link:link, .link:visited {
   border-radius: 50px;
 }
 .blog .entry .entry-content .read-more a:hover {
-  background: #4850ff;
+  background: #000099;
 }
 .blog .entry .entry-content h3 {
   font-size: 22px;
