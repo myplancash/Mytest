@@ -859,6 +859,9 @@ section {
   /* box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08); */
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
+  font-family: 'hk_groteskregular', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 .icon-boxes .icon {
   margin: 0 auto 20px auto;
@@ -2415,7 +2418,6 @@ a:link, a:visited, .link:link, .link:visited {
   }
   
   #about .about-descr .p-heading {
-    font-family: 'hk_grotesksemibold', serif;
     font-size: 28px;
     text-align: left;
   }
