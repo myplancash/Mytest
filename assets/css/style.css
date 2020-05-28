@@ -1678,11 +1678,13 @@ a:link, a:visited, .link:link, .link:visited {
   zoom: 1;
   transition: ease .25s;
   margin-right: auto;
+  cursor: pointer;
 }
 .blog .entry:hover {
   /* -webkit-box-shadow: 0 2px 50px 0 #E2E8EE; */
   box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
   transform: scale(1.05);
+
 }
 
 .blog .entry .entry-img {
@@ -1697,6 +1699,19 @@ a:link, a:visited, .link:link, .link:visited {
   padding: 0;
   margin: 0 0 20px 0;
 }
+
+.blog .entry h4 {
+  font-size: 14px;
+  /* background: #0000d6; */
+  background: #f8f8f9;
+  padding: 7px 14px;
+  border-radius: 4px;
+  /* color: #fff; */
+  margin: 0;
+  color: #0000d6;
+  border: 1px solid #0000d6;
+}
+
 .blog .entry .entry-title a {
   color: #234099;
   transition: 0.3s;
