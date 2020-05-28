@@ -143,15 +143,19 @@
           <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
             <div class="box recommended">
               <span class="recommended-badge">Recommended</span>
-              <h3>Invest</h3>
+              <h3>Spend, Save, Invest & Happy</h3>
               <h4><sup>$</sup>19<span> / single payment</span></h4>
-              <span><i class="lni lni-arrow-left"></i> Everything included in Spend & Save</spa>
+              <span>the best of the best</spa>
               <ul>
+
+                <li><i class="lni lni-checkmark"></i> Successfully incorporate a specific wellness habits into your life.</li>
+                <li><i class="lni lni-checkmark"></i> Increase your own happiness and build more productive habits</li>
+                <li><i class="lni lni-checkmark"></i> Discover what really makes us happy</li>
                 <li><i class="lni lni-checkmark"></i> Making a plan based on sound financial planning principles</li>
                 <li><i class="lni lni-checkmark"></i> Set up a goal, and track your progress</li>
                 <li><i class="lni lni-checkmark"></i> Create an investment strategy, aligned with your goals</li>
-                <li><i class="lni lni-checkmark"></i> Investment account: Your savings invested in the market and have the potential to grow exponentially</li>
-                <li><i class="lni lni-checkmark"></i> We will help you decide how much to invest</li>
+                <li><i class="lni lni-checkmark"></i> Savings invested in the market and have the potential to grow exponentially</li>
+                <li><i class="lni lni-checkmark"></i> Add clarity by developing the right practices.</li>
                 <li><i class="lni lni-checkmark"></i> 24/7 support</li>
 
                 <li class="na">Massa ultricies mi</li>
@@ -159,19 +163,21 @@
               <div class="btn-wrap">
                 <a href="#" class="btn-buy">Buy Now</a>
               </div>
+              <div class="mt-4" id="paypal-button-container"></div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
             <div class="box">
-              <h3>Spend, Save, Invest & Happy</h3>
+              <h3>Spend, Save & Invest</h3>
               <h4><sup>$</sup>19<span> / single payment</span></h4>
               <span><i class="lni lni-arrow-left"></i> Everything included in Invest</spa>
               <ul>
-                <li><i class="lni lni-checkmark"></i> Successfully incorporate a specific wellness habits into your life.</li>
-                <li><i class="lni lni-checkmark"></i> To increase your own happiness and build more productive habits</li>
-                <li><i class="lni lni-checkmark"></i> What really makes us happy</li>
-                <li><i class="lni lni-checkmark"></i> From misconceptions to developing the right practices.</li>
+                <li><i class="lni lni-checkmark"></i> Making a plan based on sound financial planning principles</li>
+                <li><i class="lni lni-checkmark"></i> Set up a goal, and track your progress</li>
+                <li><i class="lni lni-checkmark"></i> Create an investment strategy, aligned with your goals</li>
+                <li><i class="lni lni-checkmark"></i> Investment account: Your savings invested in the market and have the potential to grow exponentially</li>
+                <li><i class="lni lni-checkmark"></i> We will help you decide how much to invest</li>
                 <li><i class="lni lni-checkmark"></i> 24/7 support</li>
               </ul>
               <div class="btn-wrap">
@@ -294,7 +300,55 @@
     <!-- TIDIO livechat -->
     <!-- <script src="//code.tidio.co/2yelixegg1vieabmrgloybvzrjwlhm3k.js" async></script> -->
   
-  
+    <script
+    src="https://www.paypal.com/sdk/js?client-id=AWhHyMwIARBFNg4mrhbZ_120lGupEcObnWVywvQa_zGN4b88IX2LDTvE5pLFDdLO2cdOVBxNsJgMRo_4"></script>
+  </script>
+  <script>
+    paypal.Buttons({
+      createOrder: function (data, actions) {
+        // Set up the transaction
+        return actions.order.create({
+          purchase_units: [{
+            amount: {
+              value: '19.99'
+            }
+          }]
+        });
+      },
+      onApprove: function (data, actions) {
+        // Capture the funds from the transaction
+        return actions.order.capture().then(function (details) {
+          // Show a success message to the buyer
+          alert('Transaction completed by ' + details.payer.name.given_name + '!');
+          // Call your server to save the transaction
+          return fetch('/paypal-transaction-complete', {
+            method: 'post',
+            headers: {
+              'content-type': 'application/json'
+            },
+            body: JSON.stringify({
+              orderID: data.orderID
+            })
+          });
+        });
+      },
+      style: {
+        // layout: 'vertical',
+        color: 'gold',
+        shape: 'rect',
+        label: 'buynow',
+        // height: 50,
+        tagline: false
+      }
+      // layout: 'horizontal',
+      // color: 'gold',
+      // shape: 'rect',
+      // label: 'buynow, pay',
+      // tagline: false
+    }).render('#paypal-button-container');
+  </script>
+  <!-- Paypal End -->
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
